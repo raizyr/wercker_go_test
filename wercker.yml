@@ -13,7 +13,7 @@ build:
     # get dependencies
     - script:
         name: get dependencies
-        code: go get -t ./...
+        code: go get -v -t ./...
 
     # Test the api units
     - script:
